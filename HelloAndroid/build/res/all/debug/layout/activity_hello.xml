@@ -53,38 +53,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-        <RadioButton android:id="@+id/leftMoney"
-                     android:checked="true"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="欠银行多少钱"/>
+        <RadioButton
+                android:id="@+id/leftMoney"
+                android:checked="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="欠银行多少钱"/>
 
-        <RadioButton android:id="@+id/currentBill"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="我的本期账单"/>
+        <RadioButton
+                android:id="@+id/currentBill"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="我的本期账单"/>
 
-        <RadioButton android:id="@+id/todayBill"
-                     android:checked="true"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="今天花了多少"/>
+        <RadioButton
+                android:id="@+id/todayBill"
+                android:checked="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="今天花了多少"/>
 
-        <RadioButton android:id="@+id/leftBills"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="我的未出账单"/>
+        <RadioButton
+                android:id="@+id/leftBills"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="我的未出账单"/>
 
-        <RadioButton android:id="@+id/amount"
-                     android:checked="true"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="我的额度"/>
+        <RadioButton
+                android:id="@+id/amount"
+                android:checked="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="我的额度"/>
 
-        <RadioButton android:id="@+id/score"
-                     android:layout_height="wrap_content"
-                     android:layout_width="match_parent"
-                     android:text="我的积分"/>
+        <RadioButton
+                android:id="@+id/score"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="我的积分"/>
 
     </RadioGroup>
 
@@ -100,4 +106,4 @@
             android:text="@string/send"/>
 
 </LinearLayout>
-        <!-- From: file:/home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/src/main/res/layout/activity_hello.xml -->
+<!-- From: file:/home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/src/main/res/layout/activity_hello.xml -->

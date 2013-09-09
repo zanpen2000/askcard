@@ -1,7 +1,10 @@
 package com.example.helloandroid;
 
 import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.DialogInterface;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.app.Activity;
 import android.telephony.SmsManager;
@@ -21,17 +24,70 @@ public class AskBCCOM extends Activity {
     private String bankNumber;
     private AlertDialog alertDialog;
 
+    private SQLiteDatabase cardDatabase = null;
+    private static final String USERTABLENAME = "card";
+
+    public void getDatabase() {
+        SqliteHelper db = new SqliteHelper(this, USERTABLENAME, null, 1);
+        cardDatabase = db.getWritableDatabase();
+    }
+
+    public void clearDatabase() {
+        cardDatabase.execSQL("delete from card");
+    }
+
+    public void insert(String cardid) {
+        clearDatabase();
+        ContentValues value = new ContentValues();
+        value.put("card_id", cardid);
+        cardDatabase.insert(USERTABLENAME, null, value);
+    }
+
+    public int update(String cardid, String newId) {
+        ContentValues value = new ContentValues();
+        value.put("card_id", newId);
+        return cardDatabase.update(USERTABLENAME, value, "card_id=?", new String[]{cardid});
+    }
+
+    public int delete(String cardid) {
+        return cardDatabase.delete(USERTABLENAME, "card_id=?", new String[]{cardid});
+    }
+
+    public Cursor simpleQuery() {
+        return cardDatabase.rawQuery("select * from card", null);
+    }
+
+    public String getCardId() {
+        Cursor cc = simpleQuery();
+
+        if (cc.getCount() > 0) {
+            cc.moveToFirst();
+            return cc.getString(0);
+        } else
+            return "";
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello);
 
+        //get database for use.
+        getDatabase();
+
+
         editText = (EditText) this.findViewById(R.id.cardNumber);
+        editText.setText(getCardId());
+
         cardNumber = editText.getText().toString();
-        //my owner number
+
         if (cardNumber.equals("")) {
+
             cardNumber = "7528";
+            editText.setText(cardNumber);
         }
+
+        //my owner number
 
         bankNumber = this.getString(R.string.bankNumber);
 
@@ -70,6 +126,12 @@ public class AskBCCOM extends Activity {
                 }
                 Log.d("信用卡查询", smsText);
                 sms.sendTextMessage(bankNumber, null, smsText, null, null);
+
+                //insert database
+                if (!cardNumber.equals("")) {
+                    insert(cardNumber);
+                }
+
                 alertDialog.setCancelable(false);
                 alertDialog.setMessage("发送成功，请注意查收短信");
                 alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "我知道了", new DialogInterface.OnClickListener() {

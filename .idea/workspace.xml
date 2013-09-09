@@ -16,6 +16,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35bad262-1d66-4784-a403-1563c23b39df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/SqliteHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java" afterPath="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloAndroid/build/source/r/debug/com/example/helloandroid/R.java" afterPath="$PROJECT_DIR$/HelloAndroid/build/source/r/debug/com/example/helloandroid/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloAndroid/build/res/all/debug/layout/activity_hello.xml" afterPath="$PROJECT_DIR$/HelloAndroid/build/res/all/debug/layout/activity_hello.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloAndroid/build/res/all/debug/menu/hello.xml" afterPath="$PROJECT_DIR$/HelloAndroid/build/res/all/debug/menu/hello.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HelloAndroid.iws" />
@@ -88,8 +93,33 @@
       <file leaf-file-name="AskBCCOM.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.09071274" vertical-offset="0" max-vertical-offset="1176">
+            <state line="102" column="0" selection-start="2980" selection-end="2980" vertical-scroll-proportion="2.4509804" vertical-offset="632" max-vertical-offset="2544">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2550#2585#0" expanded="true" />
+                <element signature="e#2826#4662#0" expanded="true" />
+                <element signature="e#4651#4652#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="6992">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqliteHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/SqliteHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="31" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,7 +127,7 @@
       <file leaf-file-name="activity_hello.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/res/layout/activity_hello.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="37" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0" vertical-offset="1232" max-vertical-offset="1596">
+            <state line="86" column="37" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.0" vertical-offset="1232" max-vertical-offset="1824">
               <folding />
             </state>
           </provider>
@@ -109,7 +139,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="252">
+            <state line="12" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="288">
               <folding />
             </state>
           </provider>
@@ -174,6 +204,7 @@
         <option value="$PROJECT_DIR$/HelloAndroid/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/HelloActivity.java" />
         <option value="$PROJECT_DIR$/HelloAndroid/src/main/res/layout/activity_hello.xml" />
+        <option value="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/SqliteHelper.java" />
         <option value="$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java" />
       </list>
     </option>
@@ -213,7 +244,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -373,6 +404,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HelloAndroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloandroid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -380,9 +441,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01889ed7cf969715" />
@@ -390,6 +452,7 @@
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="N4" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -589,13 +652,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-6" width="1393" height="907" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -607,7 +670,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944155" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944155" sideWeight="0.6002656" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -680,17 +743,15 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="40" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1050">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2585#0" expanded="true" />
+            <element signature="e#2826#4662#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,27 +782,37 @@
     <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2585#0" expanded="true" />
+            <element signature="e#2826#4662#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2585#0" expanded="true" />
+            <element signature="e#2826#4662#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2585#0" expanded="true" />
+            <element signature="e#2826#4662#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="19" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.33333334" vertical-offset="303" max-vertical-offset="6555" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/telephony/SmsManager.class">
@@ -783,10 +854,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/SqliteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="31" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="2223" selection-end="2223" vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="6992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HelloAndroid/src/main/java/com/example/helloandroid/AskBCCOM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.09071274" vertical-offset="0" max-vertical-offset="1176">
-          <folding />
+        <state line="102" column="0" selection-start="2980" selection-end="2980" vertical-scroll-proportion="2.4509804" vertical-offset="632" max-vertical-offset="2544">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2550#2585#0" expanded="true" />
+            <element signature="e#2826#4662#0" expanded="true" />
+            <element signature="e#4651#4652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
