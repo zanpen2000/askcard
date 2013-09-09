@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1378623796000 2790 4e604d024dc43c6f48ffc013cd5be60dbe281408 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/AskBCCOM$1.class
+1378623796000 2653 df3637e1ade70dd24a22c2a28210858110105735 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/AskBCCOM.class
+1378623795000 900 0c507c22e42dba3dcf2a8fe6e8d2bb624cf7c70c /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/AskBCCOM$1$1.class
+1378623796000 425 525501452c63ec8fa56acfee534e8785ec7b4f21 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$drawable.class
+1378623796000 357 6d7501130cf911a83819a0e60143ade22f7867fe /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/BuildConfig.class
+1378623796000 706 a219be24e4971ddadb22b4cc152d57d0ee4b8e3a /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$id.class
+1378623796000 358 a87a84374fc9619f647880ca06f02a2da34ebb91 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$attr.class
+1378623796000 449 c69c23f794b93574ba19a1fc704394779295f257 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$style.class
+1378623796000 617 589b4d66901a00a14a4dc85d01794b33b68a5596 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$string.class
+1378623796000 407 901997f47d71dfab0b201e570556be195f68f070 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$menu.class
+1378623796000 737 f9cb453ab8e1ec3aae0e9cc5e9c51609dc41abf7 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R.class
+1369432937000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /home/peng/software/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1378623796000 479 6d6ea7dac196e5bd17a80b6d8a1289c8af018587 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$dimen.class
+1378623796000 422 8f266a13ddb453bb9eac9ba17c21a9efce4acf34 /home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/build/classes/debug/com/example/helloandroid/R$layout.class

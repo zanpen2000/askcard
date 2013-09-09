@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/src/main/res/values/dimens.xml -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/src/main/res/values/strings.xml -->
+    <string name="action_settings">Settings</string>
+    <string name="app_name">交通银行信用卡查询工具</string>
+    <string name="bankNumber">95559</string>
+    <string name="formText">交通银行(95559)信用卡账单查询</string>
+    <string name="label_number">请输入信用卡尾部4位号码:</string>
+    <string name="send">发送查询短信</string>
+    <string name="wantKnow">我想知道:</string>
+    <!-- From: file:/home/peng/AndroidStudioProjects/HelloAndroidProject/HelloAndroid/src/main/res/values/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
