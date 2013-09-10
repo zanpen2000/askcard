@@ -9,7 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class SqliteHelper extends SQLiteOpenHelper {
 
-
+/*
+*   simple database for store card id info
+* */
 
     public SqliteHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
