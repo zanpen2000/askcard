@@ -99,6 +99,23 @@ public class AskBCCOM extends Activity {
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                
+                                if (cardNumber.equals(""))
+                {
+                    AlertDialog dialog = new AlertDialog.Builder(AskBCCOM.this).create();
+                    dialog.setMessage("请填写信用卡尾部4位号码");
+                    dialog.setButton(DialogInterface.BUTTON_POSITIVE, "我知道了",new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            editText.requestFocus();
+                            dialogInterface.dismiss();
+                        }
+                    });
+                    dialog.show();
+
+                    return;
+                }
+                
                 SmsManager sms = SmsManager.getDefault();
 
                 int idChecked = radioGroup.getCheckedRadioButtonId();
